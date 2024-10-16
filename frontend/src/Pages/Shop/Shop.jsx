@@ -8,7 +8,7 @@ const Shop = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const ApiKey =
-    "https://harmonious-gift-7f42955e82.strapiapp.com/api/shops?populate=*";
+    "";
 
   useEffect(() => {
     async function fetchData() {

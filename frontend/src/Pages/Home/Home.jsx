@@ -22,7 +22,7 @@ const Home = () => {
     async function fetchData() {
       try {
         const resData = await axios.get(
-          "https://harmonious-gift-7f42955e82.strapiapp.com/api/shops?populate=*"
+          ""
         );
         setNewArrivalsData(
           resData.data.data.filter((item) => {
@@ -44,7 +44,7 @@ const Home = () => {
     async function fetchData() {
       try {
         const resData = await axios.get(
-          "https://harmonious-gift-7f42955e82.strapiapp.com/api/shops?populate=*"
+          ""
         );
         setTopSellingData(
           resData.data.data.filter((item) => {
@@ -66,7 +66,7 @@ const Home = () => {
     async function fetchData() {
       try {
         const resData = await axios.get(
-          "https://harmonious-gift-7f42955e82.strapiapp.com/api/reviews?populate=*"
+          ""
         );
         setTestimonalsData(
           resData.data.data.filter((item) => {
